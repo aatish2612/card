@@ -1,0 +1,202 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0DFBE;
+    color: #473007;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #FFC72A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #473007;
+    font-weight: bold;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header-image {
+    max-width: 86%;
+    height: auto;
+}
+
+
+
+.classic-edition {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start ;
+    padding: 85px;
+    border-radius: 15px;
+}
+
+.classic-edition tout img {
+    max-width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.classic-edition .text-content {
+    max-width: 45%;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.card-item img {
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+.buttons-container-1 {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.buttons-container-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.info-button {
+    padding: 2px 14px;
+    border: none;
+    background: #473007;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button {
+    padding: 7px 24px;
+    border: 2px solid #473007;
+    background: none;
+    color: #473007;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #5b4024;
+    color: #fff;
+}
+
+.description-box {
+    background-color: #FFC72A; 
+    padding: 30px 10%; 
+    width: 100w; 
+    text-align: start;
+    box-sizing: border-box; 
+    margin: 0; 
+    position: relative;
+    left: 0;
+    padding-left: 8%;
+}
+
+.description-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5b4024;
+}
+
+.description-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #5b4024;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.box-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b4024;
+}
+
+.box-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.box-image img { 
+    max-width: 1600px;
+}
+
+.download-button {
+    padding: 12px 150px;
+    border: 2px solid #5b4024;
+    background: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    color: #5b4024;
+}
+
+.download-button:hover {
+    background: #5b4024;
+    color: #fff;
+}
+
+footer.site-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #8523C7;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.footer-item i {
+    font-size: 40px; 
+}
